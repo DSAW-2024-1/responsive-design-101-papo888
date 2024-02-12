@@ -23,7 +23,7 @@
         max-height: auto;
     }
     .separacion{
-        margin: 5%;
+        padding-left: 25px;
     }
     li{
         padding: 2px;
@@ -90,6 +90,9 @@
 /* Estilos para elementos con un espaciado adicional en la parte inferior */
 .lejos{
     padding-bottom: 1rem;
+}
+.lejos2{
+    padding-bottom: 1rem;
     margin: 2%;
 }
 
@@ -135,6 +138,7 @@ p{
 /* Estilos para elementos que necesiten el color morado */
 .moradito{
     color: hsl(332, 51%, 32%);
+    padding: 10px;
 }
 
 .center{
@@ -154,7 +158,6 @@ ul{
 table
 {
     width:  100%;
-    border-collapse: collapse
 }
 table th, td
 {
