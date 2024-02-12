@@ -1,3 +1,4 @@
+/* Fuente para la letra */
 @font-face {
     font-family: "Outfit";
     src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf) format ("truetype");
@@ -13,7 +14,7 @@
 @media screen and (max-width: 480px) {
     body{
         margin: 0;
-        padding: 0;
+        padding: 2px;
     }
     .imagen{
         margin: 0;
@@ -41,11 +42,6 @@
         flex-direction: column;
         gap: 0rem;
         border-radius: 10px;
-    /* margen para formato*/
-    .appar{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
     }
 }
 /* Estilos para pantallas con un ancho mínimo de 481 píxeles */
@@ -92,11 +88,6 @@
         flex-direction: column;
         gap: 1rem;
         border-radius: 10px;
-    /* margen para formato*/
-    .appar{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
     }
 }
 
