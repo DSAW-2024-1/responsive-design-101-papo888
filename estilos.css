@@ -1,5 +1,5 @@
 /* Estilos para pantallas con un ancho mínimo de 481 píxeles */
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 1025px) {
     /* Resetear márgenes, padding y usar el modelo de caja border-box para todos los elementos */
     *{
         margin: 0;
@@ -13,6 +13,7 @@
         height: 100vh;
         display: grid;
         place-items: center;
+        font-family: 'Young Serif', serif;
     }
      /* Estilos para la sección principal */
     .main{
@@ -58,6 +59,7 @@
     body{
         margin: 0;
         padding: 0;
+        font-family: 'Young Serif', serif;
     }
     .imagen{
         margin: 0;
@@ -92,6 +94,47 @@
     }
     }
 }
+/* Estilos para pantallas con un ancho máximo de 480 píxeles */
+@media screen and (min-width:481) and (max-width: 1024px) {
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Young Serif', serif;
+    }
+    .imagen{
+        margin: 0;
+        padding: 0;
+    }
+    .imagen img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    .separacion{
+        padding-left: 5%;
+    }
+    li{
+        padding: 2px;
+        padding-right: 0px;
+        
+    }
+    .second-section {
+        margin: 15px;
+        background-color: hsl(330, 100%, 98%);
+        padding-left: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+        border-radius: 10px;
+    /* margen para formato*/
+    .appar{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    }
+}
+
 /* Estilos para elementos con un espaciado adicional en la parte inferior */
 .lejos{
     padding-bottom: 1rem;
