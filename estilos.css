@@ -19,7 +19,7 @@
     }
     .imagen{
         margin: 0;
-        padding: 0;
+        padding: 0 !important;
     }
     .imagen img{
         width: 100%;
