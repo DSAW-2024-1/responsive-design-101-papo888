@@ -91,34 +91,28 @@ h1 {
 h2{
     padding: 1rem;
     color: hsl(14, 45%, 36%)
-    padding: 5%;
 }
 
 p{
     font-size: 1rem;
-    padding: 5px;
-    padding: 5%;
 }
 
 .first-section {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 5%;
 }
 .thirth-section {
     max-width: 100%;
     height: auto;
     overflow: hidden;
     place-items: center;
-    padding: 5%;
 }
 
 .todo{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 5%;
 }
 
 .borde {
@@ -126,7 +120,6 @@ p{
     border-top: 1px hsl(30, 18%, 87%);
     width: 100%;
     margin: 20 px 0;
-    padding: 5%;
 }
 
 .moradito{
@@ -144,14 +137,12 @@ li::marker{
 }
 ul{
     place-items: center;
-    padding: 5%;
 }
 
 table
 {
     width:  100%;
     border-collapse: collapse
-    padding: 5%;
 }
 table th, td
 {
